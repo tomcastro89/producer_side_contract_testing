@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class RestController {
 
     @GetMapping("/endpoint")
-    public ResponseEntity endpoint(){
-        return ResponseEntity.ok().build();
+    public ResponseEntity endpoint() {
+        return ResponseEntity.status(200).build();
     }
 }
