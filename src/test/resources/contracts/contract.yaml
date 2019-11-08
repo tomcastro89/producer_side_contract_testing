@@ -1,0 +1,6 @@
+name: "Endpoint"
+request:
+  method: GET
+  url: /endpoint
+response:
+  status: 200
